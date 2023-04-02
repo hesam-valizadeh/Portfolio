@@ -13,6 +13,8 @@
     --blue: #1854b4;
     --pink: #f021b2;
     --aqua: #21f0e9;
+    --viloet: #971cd4;
+    --lightgreen: #47e20f;
   }
   
   * {
@@ -860,10 +862,11 @@
   }
   .style-switcher .colors span{
     display: inline-block;
-    height: 30px;
+    height:  30px;
     width: 30px;
     border-radius: 50%;
     border: 1px solid transparent;
+    margin: 7px;
   }
   
   .style-switcher .color-1{
@@ -873,14 +876,20 @@
     background-color: var(--orange);
   }
   .style-switcher .color-3{
-    background-color: var(--blue);
-  }
-  .style-switcher .color-4{
     background-color: var(--green);
   }
+  .style-switcher .color-4{
+    background-color: var(--blue);
+  }
   .style-switcher .color-5{
-    background-color: var(--aqua);
+    background-color: var(--pink);
   }
   .style-switcher .color-6{
-    background-color: var(--pink);
+    background-color: var(--aqua);
+  }
+  .style-switcher .color-7{
+    background-color: var(--viloet);
+  }
+    .style-switcher .color-8{
+    background-color: var(--lightgreen);
   }

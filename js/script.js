@@ -24,3 +24,15 @@ var typed = new Typed('.typing',{
     BackSpeed:60,
     loop:true
 })
+
+
+const colorBtns = document.querySelectorAll('.colors span')
+
+colorBtns.forEach(function (colorBtn) {
+
+    colorBtn.addEventListener('click', function (event) {
+        let btnColor = event.target.dataset.color
+
+        document.documentElement.style.setProperty('--skin-color', btnColor)
+    })
+})

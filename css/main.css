@@ -336,7 +336,9 @@
     width: 340px;
     object-fit: contain;
   }
-
+  .home p,.about p{
+    text-align: justify;
+  }
   .hello {
     font-size: 28px;
     margin: 15px 0;

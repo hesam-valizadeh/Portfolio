@@ -63,7 +63,7 @@
     bottom: 0;
     z-index: 0;
     transition: all 0.5s ease;
-    overflow-y: auto ;
+    overflow-y: auto;
     overflow-x: hidden;
   }
 
@@ -185,7 +185,8 @@
     border-right: 1px solid var(--bg-black-50);
     transition: all 0.5s ease;
   }
-  .aside .nav-toggler.open span{
+
+  .aside .nav-toggler.open span {
     background-color: transparent;
   }
 
@@ -232,10 +233,12 @@
     top: 0;
     right: 0;
   }
-  .aside .nav-toggler.open span::before{
+
+  .aside .nav-toggler.open span::before {
     transform: rotate(45deg);
-    top:0
+    top: 0
   }
+
   .aside .nav-toggler {
     height: 40px;
     width: 50px;
@@ -252,10 +255,12 @@
     transition: all 0.5s ease;
 
   }
-  .aside .nav-toggler.open span::after{
+
+  .aside .nav-toggler.open span::after {
     transform: rotate(-45deg);
-    top:0
+    top: 0
   }
+
   .aside .nav-toggler span {
     height: 2px;
     width: 18px;
@@ -336,9 +341,12 @@
     width: 340px;
     object-fit: contain;
   }
-  .home p,.about p{
+
+  .home p,
+  .about p {
     text-align: justify;
   }
+
   .hello {
     font-size: 28px;
     margin: 15px 0;
@@ -458,8 +466,8 @@
   }
 
   .about .about-content .skills {
-    flex: 0 0 40%;
-    max-width: 40%;
+    flex: 0 0 100%;
+    max-width: 100%;
     margin-top: 40px;
   }
 
@@ -809,9 +817,11 @@
     .section {
       left: 0;
     }
-    .section.open{
-      left:270px
+
+    .section.open {
+      left: 270px
     }
+
     .about .about-content .personal-info .info-item p span {
       display: block;
       margin-left: 0;
